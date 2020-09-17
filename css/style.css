@@ -1,0 +1,163 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  letter-spacing: 2px;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.container {
+  display: flex;
+  width: 1250px;
+}
+main {
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+}
+h3 {
+  text-transform: uppercase;
+}
+.section-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  padding: 60px 25px;
+  background-color: #345383;
+  color: #fff;
+}
+.avatar {
+  position: relative;
+  overflow: hidden;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+.avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 15px;
+}
+.contacts-header {
+  margin-bottom: 25px;
+}
+.contacts-list {
+  list-style-type: none;
+}
+.contacts-list li {
+  margin-bottom: 10px;
+}
+.contacts-method {
+  margin-right: 5px;
+}
+.contacts-list li a {
+  color: #c5c5c9;
+  text-decoration: none;
+  line-height: 1.5;
+}
+.contacts-list li a:hover {
+  color: #6980a7;
+}
+.section-right {
+  padding: 60px 30px;
+}
+.options {
+  margin-bottom: 35px;
+}
+.title {
+  color: #8dc1e6;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+header {
+  margin-bottom: 50px;
+}
+.name {
+  position: relative;
+  margin-bottom: 45px;
+  font-size: 37px;
+  color: #345383;
+  text-transform: uppercase;
+}
+.name::after {
+  content: "";
+  position: absolute;
+  bottom: -19px;
+  left: 0;
+  width: 247px;
+  height: 2px;
+  background-color: #312b3d;
+}
+.profession {
+  font-weight: bold;
+  font-size: 24px;
+  color: #8dc1e6;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.profile-description {
+  color: #312b3d;
+}
+.skills {
+  margin-bottom: 35px;
+}
+.scills-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.scills-list {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.skills-item {
+  margin-bottom: 15px;
+  margin-left: 35px;
+  color: #312b3d;
+}
+.education-description {
+  list-style-type: none;
+}
+.education-description li {
+  position: relative;
+  margin-bottom: 5px;
+}
+.education-description li::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -14px;
+  transform: translateY(-50%);
+  width: 5px;
+  height: 2px;
+  background-color: #312b3d;
+}
+.education-description li span {
+  font-style: italic;
+  color: #464646;
+}
+.level-language {
+  margin-bottom: 10px;
+  color: #464646;
+}
+.level-language span {
+  font-style: italic;
+  font-weight: bold;
+}
+.language-description {
+  font-style: italic;
+}
